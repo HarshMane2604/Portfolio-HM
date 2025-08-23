@@ -3,12 +3,13 @@
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { useOutsideClick } from "@/hooks/useOutsideClick";
+import Image from "next/image";
 
 export function ExpandableCardDemo() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
     null
   );
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLDivElement>(null!);
   const id = useId();
 
   useEffect(() => {
@@ -71,7 +72,7 @@ export function ExpandableCardDemo() {
               className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden"
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
-                <img
+                <Image
                   width={200}
                   height={200}
                   src={active.src}
@@ -126,7 +127,7 @@ export function ExpandableCardDemo() {
       </AnimatePresence>
       <ul className="max-w-2xl mx-auto w-full gap-4  z-30">
         {cards.map((card, index) => ( 
-          <div className=" bg-gray-100 dark:bg-gray-800 rounded-xl ">
+          <div className=" bg-gray-100 dark:bg-gray-800 rounded-xl " key={index}>
             <motion.div
             layoutId={`card-${card.title}-${id}`}
             key={`card-${card.title}-${id}`}
@@ -135,7 +136,7 @@ export function ExpandableCardDemo() {
           >
             <div className="flex gap-4 flex-col md:flex-row ">
               <motion.div layoutId={`image-${card.title}-${id}`}>
-                <img
+                <Image
                   width={100}
                   height={100}
                   src={card.src}

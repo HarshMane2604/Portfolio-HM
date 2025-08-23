@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collision";
-import { FloatingDockDemo } from "./FloatingDock";
+
 
 
 export default function About() {

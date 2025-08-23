@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "motion/react";
-import { FloatingDockDemo } from "./FloatingDock";
 import Link from "next/link";
 
 export function HeroSectionOne() {

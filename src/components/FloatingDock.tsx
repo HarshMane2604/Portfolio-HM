@@ -5,11 +5,9 @@ import {
   IconBrandGithub,
   IconBrandX,
   IconBriefcase,
-  IconExchange,
   IconHome,
   IconMail,
   IconNewSection,
-  IconTerminal2,
   IconUser,
 } from "@tabler/icons-react";
 
