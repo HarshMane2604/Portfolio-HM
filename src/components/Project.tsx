@@ -18,7 +18,8 @@ function Project() {
         </p>
       </div>
       
-      <ExpandableCardDemo  />
+      <p>Let's build something together</p>
+      {/* <ExpandableCardDemo  /> */}
       
     </BackgroundBeamsWithCollision>
     
