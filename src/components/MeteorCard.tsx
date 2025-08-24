@@ -13,7 +13,7 @@ export function MeteorsDemo() {
         >
           <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full bg-gradient-to-r from-blue-500 to-teal-500 blur-3xl" />
           
-          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-900 px-4 py-8 shadow-xl">
+          <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-300 dark:border-gray-800 bg-white dark:bg-neutral-900 px-4 py-8 shadow-xl">
             {/* Small top circle */}
             <div className="mb-4 flex h-5 w-5 items-center justify-center rounded-full border border-gray-400 dark:border-gray-500">
               <svg

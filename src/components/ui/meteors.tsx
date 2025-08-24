@@ -38,7 +38,7 @@ export const Meteors = ({
           className={cn(
             "animate-meteor-effect absolute h-0.5 w-0.5 rotate-[45deg] rounded-full",
             "bg-gray-400 shadow-[0_0_0_1px_#00000010] before:bg-gradient-to-r before:from-gray-400 before:to-transparent",
-            "dark:bg-slate-300 dark:shadow-[0_0_0_1px_#ffffff10] dark:before:from-slate-300",
+            "dark:bg-neutral-700 dark:shadow-[0_0_0_1px_#ffffff10] dark:before:from-neutral-700",
             "before:absolute before:top-1/2 before:h-[1px] before:w-[50px] before:-translate-y-1/2 before:content-['']",
             className
           )}

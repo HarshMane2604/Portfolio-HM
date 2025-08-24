@@ -3,7 +3,7 @@ import { MeteorsDemo } from "./MeteorCard";
 
 function Experience() {
   return (
-    <div className="flex justify-center items-center flex-col pb-24">
+    <div className="flex justify-center items-center flex-col pb-24 ">
       <div className="flex justify-center items-center flex-col text-center">
         <p className="text-center text-3xl md:text-6xl font-extrabold lg:font-bold py-10 ">
           Turning{" "}

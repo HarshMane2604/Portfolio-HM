@@ -9,7 +9,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="fixed bottom-7 right-6 md:top-6 md:bottom-auto z-50 p-3 rounded-full bg-white/10 dark:bg-black/10 backdrop-blur-md border border-white/20 dark:border-black/20 shadow-lg hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-300 group"
+      className="fixed bottom-10 right-6 md:top-6 md:bottom-auto z-50 p-3 rounded-full bg-white/10 dark:bg-neutral-800 backdrop-blur-md border border-white/20 dark:border-black/20 shadow-lg hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-300 group"
       aria-label="Toggle theme"
     >
       <div className="relative w-6 h-6">

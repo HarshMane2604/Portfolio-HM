@@ -9,6 +9,7 @@ import {
   IconMail,
   IconNewSection,
   IconUser,
+  IconBrandLinkedin,
 } from "@tabler/icons-react";
 
 export function FloatingDockDemo() {
@@ -48,6 +49,13 @@ export function FloatingDockDemo() {
         <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "/contact",
+    },
+    {
+      title: "LinkedIn",
+      icon: (
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://www.linkedin.com/in/harsh-mane-298646233/",
     },
 
     {
